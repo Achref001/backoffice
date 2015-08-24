@@ -270,7 +270,7 @@ public class GetContentServlet implements ContainerResponseFilter {
 					// get the title
 					// .select("#center #block-left #block-system-main  > div h3");
 					.select("#center #block-left #block-system-main  > div p")
-					.eq(0);
+					.eq(0) ;
 
 			date.setTag("date");
 			date.setValue(els.text().toString());
