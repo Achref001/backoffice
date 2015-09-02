@@ -1,0 +1,6 @@
+---
+applications:
+- name: BourseTunisieWebService0
+  memory: 512M
+  host: BourseTunisieWebService0
+  domain: mybluemix.net
